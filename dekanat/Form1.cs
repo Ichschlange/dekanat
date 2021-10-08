@@ -62,6 +62,7 @@ namespace dekanat
             teachers.Add(new_teach);
 
             label4.Text += new_teach.lastname + " " + new_teach.midname + " " + new_teach.firstname + " " + textBox10.Text + " \n";
+            MessageBox.Show("Сделано");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -76,6 +77,7 @@ namespace dekanat
            
             students.Add(new_stud);
             label6.Text += new_stud.lastname + " " + new_stud.midname + " " + new_stud.firstname + " " + new_stud.id_group + " \n";
+            MessageBox.Show("Сделано");
         }
         public void refresh()
         {
@@ -136,7 +138,7 @@ namespace dekanat
         private void button4_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
-            textBox2.Text = "";
+         
             textBox3.Text = "";
             label4.Text = "";
             label6.Text = "";
